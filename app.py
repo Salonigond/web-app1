@@ -46,7 +46,7 @@ if upload is not None:
     if option == 'find edges':
         col2.image(img.filter(ImageFilter.FIND_EDGES), caption='Find Edges Filter',use_column_width=True)
 
-    message = st.sidebar.text_input("Enter a message",value="MONDAY")
+    message = st.sidebar.text_input("Enter a message",value="JERRY")
     font_size = st.sidebar.number_input("Enter font size",value=20)
     font_color = st.sidebar.color_picker("select font color")
     c1, c2 = st.sidebar.columns(2)   
