@@ -51,7 +51,7 @@ if upload is not None:
     font_color = st.sidebar.color_picker("select font color")
     c1, c2 = st.sidebar.columns(2)   
     x= c1.number_input('x coordinate', value=img.width//2)
-    y= c1.number_input('y coordinate', value=img.width//2)
+    y= c2.number_input('y coordinate', value=img.height//2)
 
     #copy img to another
     imgc= img.copy()
